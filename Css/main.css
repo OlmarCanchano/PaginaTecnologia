@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding-top: 0;
   box-sizing: border-box;
 }
 
@@ -31,7 +31,7 @@ div.imagen_del_olmar{
   font-family: "Arial", sans-serif;
   font-size: 36px;
   font-weight: bold;
-  color: #333333;
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -44,6 +44,12 @@ div.imagen_del_olmar{
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.mover{
+  
+}
+
+
 
 main{
   height: 200px;
