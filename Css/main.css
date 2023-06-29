@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+header{
+  height: 1000px;
+  
+}
+
+div.imagen_del_olmar{
+  background-image: url("../image/IA.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.my_handwriting{
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.my_handwritingnav{
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+main{
+  height: 200px;
+}
