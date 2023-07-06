@@ -67,3 +67,13 @@ main {
   background-position: center;
   background-repeat: repeat-x;
 }
+
+.logo{
+    background-image: url("../image/nuclear-explosion.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 25px;
+    height: 22px;
+    padding: 20px 0;
+}

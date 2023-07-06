@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./static/main.css"/>
+</head>
+<body>
+    <main id="entorno"> 
+        <section>
+            <figure> 
+                <img src="./imagenes/Dojo.jpg" alt="Aire libre lo mejor"/>
+                <figcaption> Es una imagen de un Dojo </figcaption>
+            </figure>
+
+            <div>
+                <video controls preload="auto">
+                <source src="./video/{51275437-136c-402c-bf13-879f42854848}.mov"/>
+                /#t=10,60
+               </video>
+            </div>          
+        </section>
+        
+        <div>
+            <form action="" method="post">
+                <div class="form-group">
+                  <label for="nombres">Nombre</label>
+                  <input type="text" class="form-control"
+                   placeholder="agregue su nombre"
+                   name="nombres" required>
+              
+                  <label for="apellido">Apellido</label>
+                  <input type="text" class="form-control"  name="apellido"
+                   placeholder="agregue su apellido" required>
+                </div>
+                <div class="form-group">
+                  <label for="fecha">Fecha</label>
+                  <input type="date" class="form-control"  name="fecha"
+                   placeholder="agregue su telefono" required
+                   >
+              
+                  <label for="correo">Correo</label>
+                  <input type="email" class="form-control" name = "email" 
+                  placeholder="agregue su correo" required
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary" id="boton2">Enviar</button>
+                  </form>
+        </div>
+    </main>
+    
+    
+
+
+
+</body>
+</html>
